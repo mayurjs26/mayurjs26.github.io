@@ -37,7 +37,7 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects and Publications</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
                     <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li> -->
                     <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#accomplishments">Accomplishments</a></li> -->
@@ -139,7 +139,7 @@
                           <p>GPA: 3.53</p>
                           <p>Coursework : Advance Object-Oriented Programming Concepts, Foundation of Algorithms, Introduction to Big Data, Advance Graph Database, Big Data Analytics, Neural Networks, Introduction to Computer Networks.</p>
                       </div>
-                      <div class="flex-shrink-0"><span class="text-primary">August 2021 - May 2023 </span></div>
+                      <div class="flex-shrink-0"><span class="text-primary">August 2021 - Dec 2023 </span></div>
                   </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
@@ -148,7 +148,7 @@
                             <div>Electronics and Telecommunication</div>
                             <p>CGPA: 6.53 </p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2014 - December 2023</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2014 -  Aug 2018</span></div>
                     </div>
                 </div>
             </section>
@@ -156,51 +156,100 @@
             <!-- Projects-->
             <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
               <div class="my-auto">
-                <h2 class="mb-5">Projects and Publications</h2>
+                <h2 class="mb-5">Projects</h2>
                 <ul class="fa-ul mb-0">
-                    <li>
-                        <i class="fa-li fa fa-circle text-info"></i>
-                        <a href="https://github.com/mayurjs26/wikimedia-to-kafka" class="text-primary">Wikimedia to Kakfa</a> 
-                            <p> 
-                                <ul>
-                                    <li>Some content for project</li>
-                                    <li>Tools: Apache Kafka, Java, ElasticSearch</li>
-                                </ul>
-                            </p>
-                    </li>
-                    <li>
+                <li>
                     <i class="fa-li fa fa-circle text-info"></i>
-                    <a href="https://github.com/mayurjs26/notes-app-with-aws" class="text-primary">Notes App Clone</a> 
+                    <a href="https://github.com/mayurjs26/notes-app-with-aws" class="text-primary">Notes Application with AWS</a> 
                         <p> <ul>
-                            <li>Some content for notes app clone</li>
+                            <li> 
+                               Developed a full-stack application that allows users to take notes via a web application created in Angular featuring secure user authentication and real-time updates. 
+                            </li>
                             <li>
-                                Tools: Java, AWS (DynamoDB, API GateWay, Lambda)</li>
+                                Leverage AWS API Gateway and implemented a cost effective, efficient serverless backend utilizing AWS Lambda with Java 17 and AWS DyanamoDB
+                            </li>
+                            <li>
+                                Deployed all AWS resources using SAM template as Infrastructure as Code(IaC) tool.    
+                            </li>
+                            <li>
+                                <b> Tools: Java, AWS (API Gateway, Lambda, DynamoDB), Angular </b>
+                            </li>
                         </ul>
                         </p>
                   </li>
                     <li>
                     <i class="fa-li fa fa-circle text-info"></i>
-                    <a href="https://github.com/mayurjs26/auto-grader" class="text-primary">Auto Grader - Personalized Feedback System</a> 
+                    <a href="https://github.com/mayurjs26/deep-learning-pytorch-cifar10" class="text-primary">Deep Learning on CIFAR10 dataset</a> 
                         <p> <ul>
-                            <li>Content for Grading software</li>
+                            <li> 
+                               Developed a Convolutional Neural Network (CNN) model using PyTorch for image classification on the CIFAR-10 dataset, implemented the model architecture with batch normalization for improved training performance.
+                            </li>
                             <li>
-                                Tools: Java, Gradle, Python </li>
-                        </ul>
+                               Implemented batch normalization to improve the model's performance and reduce overfitting, achieved a validation accuracy of over 90% after 10 epochs of training.
+                            </li>
+                            <li>
+                                Utilized GPU acceleration for faster model training by leveraging PyTorch's GPU capabilities, employed best practices for deep learning model training, including data loading optimizations using DataLoader and moving data to the GPU.
+                            </li>
+                            <li>
+                                <b> Tools: Python, Pytorch </b>
+                            </li>
+
+                           </ul>
                         </p>
                   </li>
-                    <li>
+                <li>
                     <i class="fa-li fa fa-circle text-info"></i>
-                    <a href="https://github.com/mayurjs26/deep-learning-pytorch-cifar10" class="text-primary">Deep Learning with Pytorch on CIFAR-10 dataset</a> 
-                        <p> 
-                            <ul>
-                                <li> someting</li>                            
+                    <a href="https://github.com/mayurjs26/auto-grader" class="text-primary">AutoGrader Pro</a> 
+                        <p> <ul>
+                            <li> 
+                               Developed a custom grading system for programming assignments in Java and Python.
+                            </li>
                             <li>
-                                Tools: Python, PyTorch, CNN </li>
-                        </ul>
+                               Utilized JSON test cases for flexible and adaptable evaluation with different input values.
+                            </li>
+                            <li>
+                                Integrated Poetry build tool for seamless Python project execution and memory analysis.
+                            </li>
+                            <li>
+                                Implemented a robust feedback system with customizable conditions and messages.
+                            </li>
+                            <li>
+                                <b> Tools: Java, Gradle, Python, Poetry </b>
+                            </li>
+
+                           </ul>
                         </p>
                   </li>
-                                      </ul>
-              </div>
+                <li>
+                    <i class="fa-li fa fa-circle text-info"></i>
+                    <a href="https://github.com/mayurjs26/geo-insight" class="text-primary">GeoInsight: Vehicle Movement Analysis Tool</a> 
+                        <p> <ul>
+                            <li> 
+                               Developed a GPS data processing tool in Python for analyzing vehicle movement patterns, utilizing libraries such as NumPy, Pandas, and scikit-learn.
+                            </li>
+                            <li>
+                               Implemented functions to parse GPS data, handle timestamp conversion, and filter out redundant entries, ensuring data accuracy.
+                            </li>
+                            <li>
+                                Utilized hierarchical agglomeration techniques to identify and extract stops, optimizing the tool for efficiency through concurrent processing.
+                            </li>
+                            <li>
+                                Designed the system to generate Keyhole Markup Language (KML) files, visualizing stops with Google Maps icons based on stop durations.
+                            </li>
+                            <li>
+                                Successfully processed and analyzed large datasets, demonstrating proficiency in data manipulation, algorithm implementation, and parallel computing.
+                            </li>
+                            <li>
+                                <b> Tools: Python, scikit-learn, Pandas </b>
+                            </li>
+
+                           </ul>
+                        </p>
+                  </li>
+
+
+                </ul>
+              </div>            
             </section>
             <hr class="m-0" />
             <!-- Skills-->
@@ -211,11 +260,11 @@
                     <ul class="fa-ul mb-0">
                         <li>
                             <i class="fa-li fa fa-circle text-info"></i>
-                            <p>Languages: Java, Python, SQL, Shell Script, HTML5, CSS3, JavaScript, MongoDB, Cypher</p>
+                            <p>Languages: Java, Python, Go, SQL, Shell Script, HTML5, CSS3, JavaScript, MongoDB, Cypher</p>
                         </li>
                         <li>
                             <i class="fa-li fa fa-circle text-info"></i>
-                            <p>Frameworks: Spring Boot, React, Angular, REST, SOAP, XML, JSON, Flask, Pandas, Apache Kafka/p>
+                            <p>Frameworks: Spring Boot, React, Angular, REST, SOAP, XML, JSON, Flask, Pandas, Apache Kafka</p>
                         </li>
                         <li>
                             <i class="fa-li fa fa-circle text-info"></i>
@@ -223,7 +272,7 @@
                         </li>
                         <li>
                             <i class="fa-li fa fa-circle text-info"></i>
-                            <p>Cloud Tools: AWS (Lambda, S3, DynamoDB, API Gateway)</p>
+                            <p>Cloud Tools: AWS (Lambda, S3, DynamoDB, API Gateway, EC2) </p>
                         </li>
                         <li>
                             <i class="fa-li fa fa-circle text-info"></i>
@@ -233,56 +282,6 @@
                 </div>
             </section>
             <hr class="m-0" />
-            <!-- Interests-->
-            <section class="resume-section" id="interests">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Interests</h2>
-                    <p>Apart from being a CS Student, I enjoy going out to see new places and love nature fields, parks. Being a huge art enthusiast I love visiting museums. My hobbies include reading, painting and watching k-dramas. I am a huge fan of BTS!(K-pop group)</p>
-                    <p class="mb-0">I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the field of Artificial Intelligence and Machine learning.</p>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!--accomplishments-->
-            <!-- <section class="resume-section" id="accomplishments"> -->
-            <!--   <div class="my-auto"> -->
-            <!--     <h2 class="mb-5">Accomplishments</h2> -->
-            <!--     <ul class="fa-ul mb-0"> -->
-            <!--       <li> -->
-            <!--         <i class="fa-li fa fa-circle text-info"></i> -->
-            <!--         <a href="#" class="text-primary"></a>Participated in Smart India Hackathon 2017 & 2018 </li> -->
-            <!--       <li> -->
-            <!--         <i class="fa-li fa fa-circle text-info"></i> -->
-            <!--         <a href="#" class="text-primary"></a>Quest Leader for Google Qwiklab</li> -->
-            <!--       <li> -->
-            <!--         <i class="fa-li fa fa-circle text-info"></i> -->
-            <!--         <a href="#" class="text-primary"></a>Qualified for on-site round and semi-finals of Microsoft Imagine Cup 2019</li> -->
-            <!--         <li> -->
-            <!--           <i class="fa-li fa fa-circle text-info"></i> -->
-            <!--           <a href="#" class="text-primary"></a>Design Team for Sinhgad Karandak. -->
-            <!--         </li> -->
-            <!--       <li> -->
-            <!--         <i class="fa-li fa fa-circle text-info"></i> -->
-            <!--         <a href="#" class="text-primary"></a>Delivered a seminar on Time Series Analysis and Forecasting at Sinhgad College of Engineering. -->
-            <!--       </li> -->
-            <!--       <li> -->
-            <!--         <i class="fa-li fa fa-circle text-info"></i> -->
-            <!--         <a href="#" class="text-primary"></a>Presentation on Virtualization and Cloud Computing as part of the Audit Course for Semester 6. -->
-            <!--       </li> -->
-            <!--       <li> -->
-            <!--         <i class="fa-li fa fa-circle text-info"></i> -->
-            <!--         <a href="#" class="text-primary"></a>Presentation on Models of Emotional Intelligence as part of the Audit Course for Semester 7. -->
-            <!--       </li> -->
-            <!--       <li> -->
-            <!--         <i class="fa-li fa fa-circle text-info"></i> -->
-            <!--         <a href="#" class="text-primary"></a>Received Municipal co-operation scholarship for SSC and HSC. -->
-            <!--       </li> -->
-            <!--       <li> -->
-            <!--         <i class="fa-li fa fa-circle text-info"></i> -->
-            <!--         <a href="#" class="text-primary"></a> Received scholarship from Pace Educational Trust for HSC board. -->
-            <!--       </li> -->
-            <!--       </ul> -->
-            <!--   </div> -->
-            <!-- </section> -->
         </div>
         <!-- Bootstrap core JS-->
         <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
